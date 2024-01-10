@@ -1,4 +1,3 @@
-import { Chrono } from "react-chrono";
 import styles from "./TimeLine.module.css";
 export default function TimeLine() {
   return (
