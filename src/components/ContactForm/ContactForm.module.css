@@ -1,0 +1,39 @@
+.contactSection {
+  width: 30%;
+}
+
+.contactForm {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.inputField {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccccccb9;
+  border-radius: 4px;
+}
+
+.textarea {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submitButton {
+  background-color: #5d56c5;
+  color: ccc;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #5e56c5b2;
+}
