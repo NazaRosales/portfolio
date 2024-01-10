@@ -1,3 +1,127 @@
-.timeLineContainer {
-  max-width: 40%;
+.timeline {
+  position: relative;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 100%;
+  background: #ccc;
+  top: 0;
+  left: 50%;
+  margin-left: -3px;
+  z-index: -1;
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.containerLeft img,
+.containerRight img {
+  position: absolute;
+  width: 40px;
+  right: -20px;
+  top: 32px;
+  z-index: 10;
+}
+.containerRight img {
+  right: auto;
+  left: -20px;
+}
+.containerLeft {
+  padding: 10px, 50px;
+  position: relative;
+  width: 50%;
+  left: 0;
+}
+.containerRight {
+  padding: 10px, 50px;
+  position: relative;
+  width: 50%;
+  left: 50%;
+}
+.containerLeft,
+.containerRight {
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+}
+
+@keyframes movedown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.containerLeft:nth-child(1),
+.containerRight:nth-child(1) {
+  animation-delay: 0s;
+}
+.containerLeft:nth-child(2),
+.containerRight:nth-child(2) {
+  animation-delay: 1s;
+}
+.containerLeft:nth-child(3),
+.containerRight:nth-child(3) {
+  animation-delay: 2s;
+}
+.containerLeft:nth-child(4),
+.containerRight:nth-child(4) {
+  animation-delay: 3s;
+}
+.containerLeft:nth-child(5),
+.containerRight:nth-child(5) {
+  animation-delay: 4s;
+}
+.containerLeft:nth-child(6),
+.containerRight:nth-child(6) {
+  animation-delay: 5s;
+}
+
+.textBox {
+  margin: 0 20px 0 20px;
+  color: #333;
+  padding: 8px;
+  background-color: #c1c1c1;
+  position: relative;
+  border-radius: 6px;
+  font-size: 15px;
+}
+.textBox h2 {
+  font-weight: 600;
+}
+.textBox small {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.leftContainerArrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #c1c1c1;
+  right: -15px;
+}
+.rightContainerArrow {
+  height: 0;
+  width: 0;
+  position: absolute;
+  top: 28px;
+  z-index: 1;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #c1c1c1;
+  left: -15px;
 }

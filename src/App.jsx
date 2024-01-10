@@ -10,7 +10,7 @@ function App() {
       <div className="presentation">
         <TimeLine />
         <img
-          height={400}
+          height={300}
           src="/foto-perfil.jpg"
           alt="Mi foto de presentación - Nazareno Rosales"
         />
