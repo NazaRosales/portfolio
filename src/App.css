@@ -12,17 +12,21 @@
   display: flex;
   justify-content: space-between;
 }
+.about-me {
+  max-width: 50%;
+}
+.my-info{
+  padding: 10px;
+  text-align: left;
+}
 .about-me h1 {
+  font-weight: 800;
+  font-size: 32px;
   color: #646cff;
-  font-size: 28px;
 }
 .about-me p {
   color: #ccc;
-  font-size: 20px;
-}
-.about-me {
-  display: block;
-  align-items: start;
+  font-size: 18px;
 }
 .about-me img {
   margin-bottom: 20px;
