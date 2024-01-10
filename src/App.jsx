@@ -9,11 +9,14 @@ function App() {
       <NavBar />
       <div className="presentation">
         <TimeLine />
-        <img
-          height={300}
-          src="/foto-perfil.jpg"
-          alt="Mi foto de presentación - Nazareno Rosales"
-        />
+        <article className="about-me">
+          <img
+            src="/foto-perfil.jpg"
+            alt="Mi foto de presentación - Nazareno Rosales"
+          />
+          <h1>Nazareno Rosales</h1>
+          <p>Full stack developer, con orientación en tecnologías backend.</p>
+        </article>
       </div>
 
       <article>

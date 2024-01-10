@@ -1,41 +1,36 @@
-/* Estilos generales del navbar */
 .navbar {
-
   margin: 3rem auto;
   width: 30%;
-    font-size: small;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.6); /* Fondo con transparencia */
-    border-radius: 5px; /* Esquinas redondeadas */
-    text-align: center; /* Centrado del texto */
-  
-    /* Alineación horizontal de los elementos de la lista */
-    display: flex;
-    justify-content: center; /* Centrar los elementos horizontalmente */
-  }
-  
-  /* Estilos de la lista y los enlaces del navbar */
-  .navbar ul {
-    list-style: none; /* Eliminar viñetas de la lista */
-    padding: 0;
-    margin: 0;
-    display: flex;
-  }
-  
-  .navbar li {
-    margin-right: 5px; /* Espaciado entre elementos de la lista */
-  }
-  
-  .navbar a {
-    color: #181818; /* Color del texto */
-    text-decoration: none; /* Sin subrayado en los enlaces */
-    padding: 10px 20px; /* Espaciado interno en los enlaces */
-    border-radius: 5px; /* Esquinas redondeadas en los enlaces */
-  }
-  
-  .navbar li:hover{
-   cursor: pointer;
-   background-color: #b3b3b3b2;
-  }
-  
-  
+  font-size: small;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #646cff9f;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 5px;
+}
+
+.navbar a {
+  font-size: 12px;
+  color: #ddd;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.navbar li:hover {
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: #646cff6e;
+}
