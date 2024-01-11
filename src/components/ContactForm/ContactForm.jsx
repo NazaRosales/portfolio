@@ -18,8 +18,8 @@ export default function ContactForm() {
           <label htmlFor="mensaje">Mensaje</label>
           <textarea
             id="mensaje"
-            cols="30"
-            rows="10"
+            cols="20"
+            rows="6"
             className={styles.textarea}
           ></textarea>
           <button type="submit" className={styles.submitButton}>

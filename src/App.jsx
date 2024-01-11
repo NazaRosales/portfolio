@@ -10,8 +10,8 @@ function App() {
     <>
       <NavBar />
       <div className="presentation">
-        <TimeLine />
         <AboutMe />
+        <TimeLine />
       </div>
 
       <ContactForm />

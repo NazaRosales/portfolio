@@ -5,10 +5,10 @@ export default function Footer() {
       <h3>¡Gracias por revisar mi portafolio!</h3>
       <section className={styles.socialMedia}>
         <a href="https://github.com/NazaRosales" target="_blank">
-          <img src="/github-logo.png" alt="Mi github" width={26} />
+          <img src="/logos/socialmedia/github-logo.png" alt="Mi github" width={26} />
         </a>
         <a href="https://www.linkedin.com/in/nazareno-rosales/" target="_blank">
-          <img src="/linkedin-logo.png" alt="Mi linkedin" width={30} />
+          <img src="/logos/socialmedia/linkedin-logo.png" alt="Mi linkedin" width={30} />
         </a>
       </section>
     </footer>

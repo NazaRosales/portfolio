@@ -1,5 +1,7 @@
 .timeline {
+  padding: 20px;
   position: relative;
+  margin-top: 2rem;
 }
 .timeline::after {
   content: "";

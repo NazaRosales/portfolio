@@ -1,6 +1,7 @@
 .navbar {
   margin: 3rem auto;
-  width: 28%;
+  max-width: 500px;
+  min-width: 25%;
   font-size: small;
   padding: 5px;
   border-radius: 5px;
