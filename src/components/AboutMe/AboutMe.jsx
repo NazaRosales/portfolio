@@ -1,11 +1,12 @@
+import styles from "./AboutMe.module.css";
 export default function AboutMe() {
   return (
-    <article className="about-me">
+    <article className={styles.aboutMe}>
       <img
         src="/foto-perfil.jpg"
         alt="Mi foto de presentación - Nazareno Rosales"
       />
-      <div className="my-info">
+      <div className={styles.myInfo}>
         <h1>Nazareno Rosales</h1>
         <p>
           <strong>Full Stack Developer</strong> con orientación en tecnologías
@@ -18,8 +19,8 @@ export default function AboutMe() {
         </p>
       </div>
 
-        <h2>Tecnologías:</h2>
-      <div className="technologies">
+      <h2>Tecnologías:</h2>
+      <div className={styles.technologies}>
         <img
           src="/logos/technologies/css.png"
           alt="Imágen del logotipo de CSS"
