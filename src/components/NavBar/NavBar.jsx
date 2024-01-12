@@ -11,7 +11,7 @@ export default function NavBar() {
       <div className={styles.menuMobile}>
         <div className={styles.mobileElements}>
           <img
-            src="/public/logos/assets/menu-mobile.png"
+            src="/logos/assets/menu-mobile.png"
             alt="logotipo de menu mobile."
             className={styles.menuIcon}
             onClick={handleMenuClick}
