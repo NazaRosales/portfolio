@@ -14,7 +14,7 @@ export default function AboutMe() {
         </p>
         <p>
           Desarrollo Aplicaciones Web de punta a punta integrando el
-          <strong> Diseño</strong> y Experiencia del usuario, así como la
+          <strong> Diseño y Experiencia </strong>del usuario, así como la
           <strong> Programación</strong> y mantenimiento de la arquitectura.
         </p>
       </div>

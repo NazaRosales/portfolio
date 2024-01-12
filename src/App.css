@@ -26,13 +26,20 @@ li {
 }
 a {
   font-size: 12px;
-  color: #ddd;
+  font-weight: 600;
+  color: #ffe662;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 5px;
 }
+h1, h2, h3, h4, h5, h6  {
+  color: #7670ff;
+}
+strong {
+  color: #ffe662;
+}
 li:hover {
   cursor: pointer;
   border-radius: 3px;
-  background-color: #646cff6e;
+  background-color: #7670ff75;
 }

@@ -1,6 +1,4 @@
 import styles from "./NavBar.module.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
 export default function NavBar() {
@@ -11,9 +9,10 @@ export default function NavBar() {
   return (
     <>
       <div className={styles.menuMobile}>
-        <div className= {styles.mobileElements}>
-          <FontAwesomeIcon
-            icon={faBars}
+        <div className={styles.mobileElements}>
+          <img
+            src="/public/logos/assets/menu-mobile.png"
+            alt="logotipo de menu mobile."
             className={styles.menuIcon}
             onClick={handleMenuClick}
           />
