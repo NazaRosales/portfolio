@@ -1,5 +1,6 @@
 import styles from "./NavBar.module.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function NavBar() {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -17,15 +18,18 @@ export default function NavBar() {
             onClick={handleMenuClick}
           />
           <nav>
-            <ul style={{ display: menuVisible ? "block" : "none" }}>
+            <ul
+              style={{ display: menuVisible ? "block" : "none" }}
+              onClick={handleMenuClick}
+            >
               <li>
-                <a href="/proyectos">Proyectos</a>
+                <Link to="/">Sobre Mi</Link>
               </li>
               <li>
-                <a href="/contacto">Contacto</a>
+                <Link to="/estudios">Estudios</Link>
               </li>
               <li>
-                <a href="/sobre-mi">Sobre mi</a>
+                <Link to="/contacto">Contacto</Link>
               </li>
             </ul>
           </nav>
@@ -34,17 +38,16 @@ export default function NavBar() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <a href="/proyectos">Proyectos</a>
+            <Link to="/sobre-mi">Sobre Mi</Link>
           </li>
           <li>
-            <a href="/contacto">Contacto</a>
+            <Link to="/estudios">Estudios</Link>
           </li>
           <li>
-            <a href="/sobre-mi">Sobre mi</a>
+            <Link to="/contacto">Contacto</Link>
           </li>
         </ul>
       </nav>
-        
     </>
   );
 }

@@ -3,6 +3,7 @@ import styles from "./ContactForm.module.css";
 export default function ContactForm() {
   return (
     <section className={styles.contactSection}>
+      <h3>¡Hablemos!</h3>
       <form>
         <fieldset className={styles.contactForm}>
           <legend>Contacto</legend>

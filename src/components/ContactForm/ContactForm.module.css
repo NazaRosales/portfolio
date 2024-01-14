@@ -5,6 +5,11 @@
   width: 40%;
   min-width: 300px;
 }
+.contactSection h3{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
 
 .contactForm {
   border-color: #cccccc9c;
