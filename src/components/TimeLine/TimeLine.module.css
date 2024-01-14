@@ -8,7 +8,7 @@
   position: absolute;
   width: 6px;
   height: 100%;
-  background: #ccc;
+  background: #ffe662;
   top: 0;
   left: 50%;
   margin-left: -3px;
@@ -91,9 +91,9 @@
 
 .textBox {
   margin: 0 20px 0 20px;
-  color: #333;
+  color: #111111;
   padding: 8px;
-  background-color: #c1c1c1;
+  background-color: #f3f3f3;
   position: relative;
   border-radius: 6px;
   font-size: 15px;
@@ -113,7 +113,7 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-left: 15px solid #c1c1c1;
+  border-left: 15px solid #f3f3f3;
   right: -15px;
 }
 .rightContainerArrow {
@@ -124,6 +124,6 @@
   z-index: 1;
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
-  border-right: 15px solid #c1c1c1;
+  border-right: 15px solid #f3f3f3;
   left: -15px;
 }
