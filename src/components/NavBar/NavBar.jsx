@@ -38,7 +38,7 @@ export default function NavBar() {
       <nav className={styles.navbar}>
         <ul>
           <li>
-            <Link to="/sobre-mi">Sobre Mi</Link>
+            <Link to="/">Sobre Mi</Link>
           </li>
           <li>
             <Link to="/estudios">Estudios</Link>
